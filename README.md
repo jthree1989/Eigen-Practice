@@ -1,2 +1,2 @@
-# Eigen-Practice
-Just do some practice to understand and use Eigen3.
+# SLAM
+Just do some practice to understand and use SLAM.
