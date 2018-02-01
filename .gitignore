@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+slambook/
+myslam/doc
+myslam/myslambook.si4project
+
