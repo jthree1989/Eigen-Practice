@@ -28,7 +28,8 @@ int main(int argc, char ** argv)
 		-1, -2,	 1,
 		 3,	 9,	 0;
 	// Find eigenvalues and eigen vectors of A and B
-	EigenSolver<MatrixXd> eigenSolver_A(A), eigenSolver_B(B);	
+	EigenSolver<Matrix2d> eigenSolver_A(A); 
+	EigenSolver<Matrix3d> eigenSolver_B(B);	
 	// Print out the results
 	cout << "The eigen values of A is " << endl << eigenSolver_A.eigenvalues() << endl;
 	cout << "The eigen vectors of A is " << endl << eigenSolver_A.eigenvectors() << endl;
