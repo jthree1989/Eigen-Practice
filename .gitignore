@@ -34,4 +34,5 @@ slambook/
 rgbd-slam/
 myslam/doc
 myslam/myslambook.si4project
-
+myslam/3rdparty/Eigen
+myslam/3rdparty/Sophus
