@@ -24,7 +24,7 @@ int main( int argc, char** argv )
     cout<<"SO(3) from quaternion :"<<SO3_q<<endl;
     
     // 使用对数映射获得它的李代数
-    Eigen::Vector3d so3 = SO3_R.log();
+    Eigen::Vector3d so3 = SO3_R.log();	// 该李代数相当于求轴角，具体使用Atan-based log
     cout<<"so3 = "<<so3.transpose()<<endl;
     // hat 为向量到反对称矩阵
     cout<<"so3 hat=\n"<<Sophus::SO3::hat(so3)<<endl;
