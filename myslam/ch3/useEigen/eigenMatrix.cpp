@@ -21,7 +21,7 @@ int main( int argc, char** argv )
     // 同时，Eigen 通过 typedef 提供了许多内置类型，不过底层仍是Eigen::Matrix
     // 例如 Vector3d 实质上是 Eigen::Matrix<double, 3, 1>，即三维向量
     Eigen::Vector3d v_3d;
-	// 这是一样的
+    // 这是一样的
     Eigen::Matrix<float,3,1> vd_3d;
 
     // Matrix3d 实质上是 Eigen::Matrix<double, 3, 3>
@@ -37,7 +37,6 @@ int main( int argc, char** argv )
     matrix_23 << 1, 2, 3, 4, 5, 6;
     // 输出
     cout << matrix_23 << endl;
-
     // 用()访问矩阵中的元素
     for (int i=0; i<2; i++) {
         for (int j=0; j<3; j++)
