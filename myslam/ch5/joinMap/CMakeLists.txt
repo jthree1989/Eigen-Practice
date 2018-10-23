@@ -14,3 +14,7 @@ add_executable(${CMAKE_PROJECT_NAME} joinMap.cpp)
 target_link_libraries(${CMAKE_PROJECT_NAME}
 		      ${OpenCV_LIBS}
 )
+
+file(COPY ${CMAKE_SOURCE_DIR}/pose.txt
+     DESTINATION ${CMAKE_BINARY_DIR}
+    )
