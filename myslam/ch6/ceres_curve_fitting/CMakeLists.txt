@@ -6,3 +6,5 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -O3")
 
 # Add modules
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
+
+add_executable(${PROJECT_NAME} main.cpp)
